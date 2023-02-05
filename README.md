@@ -10,7 +10,7 @@ transcrire/traduire, ou un fichier au format FASTA contenant plusieurs séquence
 séquence nucléique (ex. un chromosome) accompagné d’un fichier GTF/GFF
 contenant les positions des gènes d’intérêt à transcrire et/ou traduire.  
 – Si le format de la séquence attendue (ex. ADN ou ARN) ne correspond pas à celle
-fournie (ex. ARN), alors une erreur doit être reportée  
-– Si un codon stop apparaît, alors la traduction doit s’arrêter.  
+fournie (ex. ARN), alors une erreur va être reportée  
+– Si un codon stop apparaît, alors la traduction va s’arrêter.  
 – L’utilisateur peut fournir une table d’utilisation des codons alternative des standards
 (par exemple il veux Arginine pour le codon AUG et non pas le Metheonine ...).
