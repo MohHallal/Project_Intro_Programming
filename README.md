@@ -5,7 +5,7 @@ codé en python peux :
 – Proposer les différents niveaux de conversion : ADN > ARN, ARN > protéine, ADN >
 protéine, selon le choix de l’utilisateur.  
 – L’utilisateur doit pouvoir fournir une ou plusieurs séquence(s) de son choix à
-transcrire/traduire, ou un fichier au format FASTA contenant plusieurs séquences (le fichier FASTA est vérifié vis à vis sa: extension, nombre de caractére par ligne, chaque base.  
+transcrire/traduire, ou un fichier au format FASTA contenant plusieurs séquences (le fichier FASTA est vérifié vis à vis sa: extension, nombre de caractére par ligne, chaque base).  
 – L’utilisateur doit également pouvoir fournir un fichier FASTA avec une longue
 séquence nucléique (ex. un chromosome) accompagné d’un fichier GTF/GFF
 contenant les positions des gènes d’intérêt à transcrire et/ou traduire.  
