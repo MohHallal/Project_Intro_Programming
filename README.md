@@ -1,4 +1,5 @@
-Ce script est un “traducteur” permettant de convertir desséquences d’ADN en séquences
+# Bienvenue
+Ce script est un “traducteur” permettant de convertir des séquences d’ADN en séquences
 d’ARN, et/ou en séquences d’acides aminés. Ce traducteur,
 codé en python peux :  
 – Proposer les différents niveaux de conversion : ADN > ARN, ARN > protéine, ADN >
