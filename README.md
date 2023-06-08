@@ -1,16 +1,12 @@
-# Bienvenue
-Ce script est un “traducteur” permettant de convertir des séquences d’ADN en séquences
-d’ARN, et/ou en séquences d’acides aminés. Ce traducteur,
-codé en python peux :  
-– Proposer les différents niveaux de conversion : ADN > ARN, ARN > protéine, ADN >
-protéine, selon le choix de l’utilisateur.  
-– L’utilisateur peux fournir une ou plusieurs séquence(s) de son choix à
-transcrire/traduire, ou un fichier au format FASTA contenant plusieurs séquences (le fichier FASTA est vérifié vis à vis sa: extension, nombre de caractére par ligne, chaque base).  
-– L’utilisateur peux également fournir un fichier FASTA avec une longue
-séquence nucléique (ex. un chromosome) accompagné d’un fichier GTF/GFF
-contenant les positions des gènes d’intérêt à transcrire et/ou traduire.  
-– Si le format de la séquence attendue (ex. ADN ou ARN) ne correspond pas à celle
-fournie (ex. ARN), alors une erreur va être reportée  
-– Si un codon stop apparaît, alors la traduction va s’arrêter.  
-– L’utilisateur peut fournir une table d’utilisation des codons alternative des standards
-(par exemple il veux Arginine pour le codon AUG et non pas le Metheonine ...).
+# DNA Translator
+
+## Description
+
+The DNA Translator script is a tool that allows you to convert DNA sequences into RNA sequences and/or amino acid sequences. This translator is coded in Python and provides the following features:
+
+- Conversion between different levels: DNA to RNA, RNA to protein, DNA to protein, based on user choice.
+- User can input one or multiple sequences for transcription/translation or provide a FASTA file containing multiple sequences (the FASTA file is validated for its extension, line length, and each base).
+- User can also provide a FASTA file with a long nucleic sequence (e.g., a chromosome) accompanied by a GTF/GFF file containing the positions of the genes of interest to be transcribed and/or translated.
+- If the expected sequence format (e.g., DNA or RNA) does not match the provided sequence (e.g., RNA), an error will be reported.
+- Translation stops when a stop codon is encountered.
+- User can provide an alternative codon usage table instead of the standard one (e.g., using Arginine for the codon AUG instead of Methionine).
